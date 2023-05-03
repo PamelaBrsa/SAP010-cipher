@@ -46,8 +46,8 @@ Para decodificar, o usuário copia o texto e insere no primeiro campo, coloca o 
 A mensagem descriptografada aparecerá no campo abaixo. 
 
 ## 4. Protótipo
-![Alt text](../OneDrive/Imagens/Capturas%20de%20tela/Captura%20de%20tela%202023-05-03%20185721.png)
 
+![Alt text](Captura%20de%20tela%202023-05-03%20185721.png)
 
 
 
