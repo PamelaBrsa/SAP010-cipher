@@ -22,15 +22,18 @@ function encode(entrada3, entrada1) {
 }
 
 function decode(entrada3, entrada1) {
+  
+  
+
 
   let descriptografado = "";
 
   if (typeof entrada1 !== "string" || typeof entrada3 !== "number") {
     throw new TypeError();
   }
-  for (let c = 0; c < entrada1.lenght; c++) {
+  for (let c = 0; c < entrada1.length; c++) {
     const position = entrada1.charCodeAt(c)
-    const letra = String.fromCharCode(((position - 90 - entrada3) % 26) + 65);
+    const letra = String.fromCharCode(((position - 90 - entrada3) % 26) + 90);
 
 
     descriptografado += letra;
