@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Criptograma_Abertura.jpg');
+    background-size: 100%;
+    bottom: 50px;
+}
+label {
+    font-family:sans-serif;
+    color: black;
+    transform: scale(1.5);
+    position: relative;
+}
+h1{
+    font-family:'chiller';
+    font-size: 45px;
+    text-shadow: 10px 10px black;
+    color: white;
+
+}
+.container1 {
+    
+    background: #483222;
+    border: 3px solid black;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    padding: 35px 60px;
+    width: 400px;
+    height:100px ;
+    box-shadow:  0 0 30px white(0,0,0,0.2);
+    transform: translate(580px, 100px);
+    cursor: pointer;
+}
+
+.container2 {
+    
+    position: relative;
+    left: 580px;
+    top: 140px;
+    background-color: #483222;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 60px;
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+    box-shadow: 0 0 30px rgba (0,0,0,0.2);
+    
+        
+}
+
+.container2 button {
+    position: relative;
+    top:100px;
+    right: 125px;  
+    
+}
+
+.encrypt {
+    transform: translate(50px, 128px) scale(2.4);
+}
+.decrypt {
+    transform: translate(210px,110px) scale(2.4);
+}
+.encrypt, .decrypt {
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    background: black;
+    color: white;
+    font-family: 'chiller';
+    font-size: 13px;
+    padding: 4px 12 px;
+}
+.shiftInput {
+    transform: scale(2);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid grey;
+    font-family:'chiller';
+}
+.container1, .container2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+textarea {
+    background: white;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    transform: scale(1.5);
+    margin-bottom: 70px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+    font-family:'chiller';
+    font-size: 20px;
+}
+
